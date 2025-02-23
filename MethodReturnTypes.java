@@ -1,5 +1,5 @@
-public class MethodsReturnTypes {
-    public MethodsReturnTypes() {
+public class MethodReturnTypes {
+    public MethodReturnTypes() {
     }
  
     public static void main(String[] var0) {
