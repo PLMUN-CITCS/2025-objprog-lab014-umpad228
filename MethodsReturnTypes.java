@@ -1,19 +1,21 @@
 public class MethodsReturnTypes {
-    public static void main(String[] args) {
-        displayWelcomeMessage();
-
-        int value1 = 20;
-        int value2 = 30;
-        double result = calculateAverage(value1, value2);
-        
-        System.out.println("The Average is: " + result);
+    public MethodsReturnTypes() {
     }
-
+ 
+    public static void main(String[] var0) {
+       displayWelcomeMessage();
+       byte var1 = 20;
+       byte var2 = 30;
+       double var3 = calculateAverage(var1, var2);
+       System.out.println("The Average is: " + var3);
+    }
+ 
     public static void displayWelcomeMessage() {
-        System.out.println("Welcome to our program");
+       System.out.println("Welcome to our program");
     }
-
-    public static double calculateAverage(int num1, int num2) {
-        return (num1 + num2) / 2.0; // Directly returning the calculated value
+ 
+    public static double calculateAverage(int var0, int var1) {
+       return (double)(var0 + var1) / 2.0;
     }
-}
+ }
+ 
